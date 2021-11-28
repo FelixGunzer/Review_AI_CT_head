@@ -8,7 +8,7 @@ Code is written in R 4.1.1
 **Note:** Critics, suggestions and comments are very well welcomed!
 
 ## Libraries
-´´´
+```
 library(ggplot2)
 library(psych)
 library(ggthemes)
@@ -16,9 +16,9 @@ library(scales)
 library(tidyverse)
 library(dplyr)
 library("qpcR")
-´´´
+```
 ## Statistical analysis
-´´´
+```
 #get data and assign variables
 data <- read.csv("Summary_papers.csv")
 data <- data[1:83,]
@@ -233,9 +233,9 @@ prev.real.desc <- describe(prevalence$Prevalence.Reality)
   train.t.test <- t.test(prevalence$Prevalence_Training,prevalence$Prevalence_Testset)
   train.t.real <- t.test(prevalence$Prevalence_Training, prevalence$Prevalence.Reality)
   test.t.real <- t.test(prevalence$Prevalence_Testset, prevalence$Prevalence.Reality)
-´´´
+```
 ## Plots
-´´´
+```
 ggplot(data %>% count(Year, Class_of_paper),
        aes(fill=Class_of_paper, y=n, x=Year)) + 
   geom_bar(position="stack", stat="identity") + 
@@ -250,5 +250,5 @@ ggplot(data %>% count(Year, Class_of_paper),
         panel.background = element_rect(fill = "white")) + 
   ylab("Number of publications") +
   guides(fill=guide_legend(title="Main function"))
-´´´
+```
 
