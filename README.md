@@ -1,9 +1,10 @@
-# Review_AI_CT_head
+# Reproducibility of artificial intelligence models in computed tomography of the head – a systematic review
 Here, you can find the code used for our review "Reproducibility of artificial intelligence models in computed tomography of the head – a systematic review"
 DOI:
 
 Code is written in R 4.1.1
 
+Our data, tables and statistics are available above.
 
 **Note:** Critics, suggestions and comments are very well welcomed!
 
