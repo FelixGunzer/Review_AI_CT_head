@@ -6,6 +6,8 @@ Code is written in R 4.1.1
 
 Our data, tables and statistics are available above.
 
+A template for graphical representations of machine learning model architecture can also be found above
+
 **Note:** Critics, suggestions and comments are very well welcomed!
 
 ## Libraries
